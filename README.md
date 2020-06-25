@@ -2,9 +2,9 @@
 
 Launch site: https://cmanthou.github.io/5.Work-Day-Scheduler/
 
-Using Javascript and APIs a quiz game was created.  A timer is initiated set at 75 seconds and during that time, the user is asked 5 multiple choice questions.  Points are added for correct answers, but time is deducted (in 10 second incraments) for incorrect answers.  At the end of the quiz, scores are logged onto a high-score page and marked by user submitted initials.
+Using Javascript, JQuery and APIs a Work Day Scheduler was created.  Events can be entered by hour and saved to local storage.  Current, Past and Future hour blocks are highlighted in different colors to help the user orient what time slots are current, past and future when selecting times to enter events. 
 
-Used normalize.css (v8.0.1) to make browsers render all elements more consistently and in line with modern standards.  Code pulled from https://necolas.github.io/normalize.css/
+The Moment.js (https://momentjs.com/) library, Bootstrap (https://getbootsrap.com/) CSS code and Google Fonts (https://fonts.google.com/) library were utilized in writing this code.
 
 Screenshot of site: 
 <img src = "assets/Screen_Shot.png"/>

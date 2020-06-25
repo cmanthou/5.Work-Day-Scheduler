@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    background-image: url("../5.Work-Day-Scheduler/Blurred-Background-Sunset-3c-Free.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid #414447;
+  }
+  
+  .description{
+    white-space: pre-wrap;
+  }
+  
+  .time-block{
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;;
+  }
+  
+  .hour {
+    background-color: grey;
+    color: white; 
+    border-top: 1px dashed #414447;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+    color: white;
+  }
+  
+  .present {
+    background-color: #7095b3;
+    color: white;
+  }
+  
+  .future {
+    background-color: #e4f0ad;
+    color: white;
+  }
+  
+  .saveBtn {
+    border-left: 1px solid #414447;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: grey;
+    color: white;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
